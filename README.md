@@ -17,3 +17,4 @@ There's a [devcontainer](https://code.visualstudio.com/docs/devcontainers/contai
 ## Running the pipeline
 Inside the dbt project `/dbt_demo`, run `dbt run`
 # dbt_duckdb_air_quality_ranking
+# dbt_duckdb_air_quality_ranking
