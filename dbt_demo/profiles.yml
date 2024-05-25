@@ -1,0 +1,11 @@
+dbt_demo:
+  outputs:
+    dev:
+      type: duckdb
+      path: /home/cyril/Documents/vscode project/duckdb_dbt/dbt_demo/dbt.duckdb
+      extensions:
+        - httpfs
+        - parquet
+      settings:
+        s3_region: us-east-1
+  target: dev
